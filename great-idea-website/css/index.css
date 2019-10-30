@@ -34,6 +34,7 @@ body {
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
@@ -64,3 +65,90 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+#nav-container {
+
+	width: 100%;
+	height: 50px;
+	margin-top: 20px;
+	text-align: center;
+	margin-bottom: 50px;
+	display: inline-block;
+
+}
+
+#nav-container a { text-decoration: none; }
+
+#nav-container li { display: inline-block; margin: 0px 5% 0px 5%;  height: 50px;}
+
+#nav-container li p { vertical-align: middle; height: 100%; line-height: 100%; vertical-align: middle;  }
+
+.nav-item { margin-top: 15px; }
+
+.header-text { font-size: 60px; }
+
+#get-started {
+
+	font-size: 20px;
+	padding: 10px;
+	border: 1px solid black;
+	font-family: 'Titillium Web', sans-serif;
+
+}
+
+#header-container {
+
+	width: 95%;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 40px;
+	border-bottom: 1px solid black;
+
+}
+
+#header-subcontainer {
+
+	margin-right: 150px;
+	vertical-align: middle;
+
+}
+
+#code-snippet { vertical-align: middle; display: inline-block; }
+
+#logo, #header-subcontainer, #code-snippet {
+
+	display: inline-block;
+
+}
+
+.content-container {
+
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+
+.content-block-a {
+
+	width: 47.5%;
+	text-align: left;
+	display: inline-block;
+
+}
+
+.content-block-b {
+
+	width: 33%;
+	text-align: left;
+	display: inline-block;
+
+}
+
+#middle-img {
+
+	width: 95%;
+	margin: 0 auto;
+
+}
